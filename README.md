@@ -22,7 +22,7 @@
 pip install -r requirements.txt
 python indexer.py
 python bot.py
-
+```
 
 ## Демонстрация
 
