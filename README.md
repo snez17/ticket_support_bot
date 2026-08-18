@@ -23,13 +23,18 @@ pip install -r requirements.txt
 python indexer.py
 python bot.py
 
-## Пример
 
-Пользователь пишет 2 вопроса: простой (happy path) и сложный, требующий эскалации.
-<img width="1080" height="2392" alt="image" src="https://github.com/user-attachments/assets/6e7e8d2e-45d2-4f5c-b834-4a906f3c5302" />
+## Демонстрация
 
-На сложный отвечает поддержка.
-<img width="1257" height="155" alt="image" src="https://github.com/user-attachments/assets/87611d89-c48d-4cad-858b-482846baa70f" />
 
-Все события записываются в лог.
-<img width="1272" height="136" alt="image" src="https://github.com/user-attachments/assets/8a5cc64c-4d06-40eb-bb61-8aba2effa126" />
+**Пользователь пишет 2 вопроса: простой (happy path) и сложный, требующий эскалации.**
+
+![Пользовательские вопросы](images/user_q.jpg)
+
+**На сложный отвечает поддержка.**
+
+![Ответ оператора](images/support_a.png)
+
+**Все события записываются в лог.**
+
+![Логи](images/logs.png)
