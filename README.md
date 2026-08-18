@@ -29,7 +29,7 @@ python bot.py
 
 **Пользователь пишет 2 вопроса: простой (happy path) и сложный, требующий эскалации.**
 
-<img width="108" height="239" alt="user_q" src="https://github.com/user-attachments/assets/1894ce8d-9b61-4061-9927-406a8ab1f128" />
+<img width="324" height="717" alt="user_q" src="https://github.com/user-attachments/assets/1894ce8d-9b61-4061-9927-406a8ab1f128" />
 
 **На сложный отвечает поддержка.**
 
