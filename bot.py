@@ -1,5 +1,6 @@
 import telebot, threading
 from rag import ask
+from rag import log_ticket
 
 # BOT_TOKEN = '8616276906:AAH0SNc4yGhRfAgYKq_KjTnKTyBopdDG-Es'
 BOT_TOKEN = '8981976763:AAELyBQalFKd__F_DNADsP6H78orM_-UmaI'
@@ -26,6 +27,10 @@ def console_reply():
         if pending:
             uid, q = next(iter(pending.items()))
             bot.send_message(uid, f"👨‍💼 {text}")
+
+            # Лог ответа оператора
+            log_ticket(uid, "Ответ оператора", f"'{text}'")
+
             del pending[uid]
 
 threading.Thread(target=console_reply, daemon=True).start()
